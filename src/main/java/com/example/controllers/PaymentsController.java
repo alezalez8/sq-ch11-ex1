@@ -11,7 +11,8 @@ import java.util.UUID;
 @RestController
 public class PaymentsController {
 
-  private final PaymentsProxy paymentsProxy;
+
+  /*private final PaymentsProxy paymentsProxy;
 
   public PaymentsController(PaymentsProxy paymentsProxy) {
     this.paymentsProxy = paymentsProxy;
@@ -29,5 +30,5 @@ public class PaymentsController {
 
 
     return paymentsProxy.createPayment(requestId, payment);
-  }
+  }*/
 }
